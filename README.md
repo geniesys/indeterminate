@@ -1,6 +1,6 @@
 ### Angular directive to facilitate 'indeterminate' checkbox state (in TypeScript)
 
-####Usage:
+###Usage:
 
  Mode 1 - your \<expression\> directly affects .indeterminate property of the checkbox object.
 
@@ -10,7 +10,7 @@
         [ ng-model="<assignable_expression>" || ng-checked="ctrl.getTriStateEnum()" ]
         [ ng-click="ctrl.click()" ] [ ng-change="ctrl.change()" ] ... >
 ```
- 1. Where <expression> references a boolean type property on the scope/model or a function that returns boolean.
+ 1. Where \<expression\> references a boolean type property on the scope/model or a function that returns boolean.
     It is up to this function to determine what is considered indeterminate state and return true or false otherwise.
  2. Attributes ng-model and ng-checked are optional and work independently from indeterminate directive.
     For ng-model, the property it is bound to will always be interpreted as true/false and values such as null and
@@ -34,7 +34,7 @@
 
  1. ng-checked - sets the checked attribute on the element, if the expression evaluates to truthy.
     ng-model and ng-checked should not be used together.
- 2. <assignable_expression> - a property on the scope/model or a get-set function (dynamic property).
+ 2. \<assignable_expression\> - a property on the scope/model or a get-set function (dynamic property).
  3. when ng-*-value attribute is mentioned, but has no value a default value appropriate for this property is assumed.
 
  Mode 3 - by comparison of ngChecked or ngModel expression vs. values of ng-true-value and ng-false-value attributes.
