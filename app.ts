@@ -1,5 +1,6 @@
 /*
-*   This is an example. I don't have a stand-alone working demo at this time, but the dirrective is fully functional.
+*   This is an example.
+*   Demo is not available at this time, but the dirrective is fully functional.
 *   If you are an Angular developer you should know how to incorporate this code into your app.
 */
 module webapp {

@@ -1,3 +1,8 @@
+/*
+*   This is an example of "indeterminate" checkbox state directive as separate module file.
+*   Demo is not available at this time, but the directive is fully functional.
+*   If you are an Angular developer you should know how to incorporate this code into your app.
+*/
 /** @ngInject */
 export function indeterminate(): angular.IDirective {
     // console.log('.directive(\'indeterminate\') - CREATING');
